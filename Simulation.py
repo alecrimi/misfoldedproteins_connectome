@@ -1,3 +1,6 @@
+# A. Randriatahina 
+# Adapted from Iturria-Medina, Yasser, et al, PloS Biology 2014
+
 import numpy as np
 import os
 import math as mt
