@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 #Parameters
-beta = 0.005
+beta = 1.5
 iterations = 10
 rois = 184
  
@@ -47,7 +47,7 @@ for index in range(len(list)):
     for iter in range(iterations):
  
        Xt = increment.dot(Xt) + Xt ;
-   
+ 
      
     #Save results
     np.savetxt(list[index] + "sim.csv", Xt, delimiter=" ")
